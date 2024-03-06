@@ -1,0 +1,23 @@
+// Projects.scss
+
+@import "../../../components/card/index.scss";
+
+.projects-cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 25px
+}
+
+@media screen and (max-width: 768px) {
+    .projects-cards {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .projects-cards {
+        flex-direction: row-reverse;
+    }
+}
