@@ -1,33 +1,95 @@
-// header.scss
-
 .main-header {
     position: sticky;
     top: 0;
     padding: 10px;
     background-color: rgba(19, 17, 148, 0.4);
     z-index: 10;
-}
-
-.nav-links {
+  
+    nav {
+      .menu-toggle {
+        display: none; // Cacher le bouton du menu par défaut
+      }
+    }
+  }
+  
+  .nav-links {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     list-style: none;
     margin: 0;
     padding: 11px;
     font-size: large;
-    gap: 5px;
-}
+    gap: 44px;
+  
+    a {
+      color: #fff;
+      text-decoration: none;
+      transition: background-color 0.4s ease;
+      padding: 21px;
+      border-radius: 40px;
+  
+      &.active,
+      &:hover {
+        background-color: rgb(21, 1, 134);
+      }
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .main-header nav {
+        .menu-toggle {
+            display: block; // Afficher le bouton du menu sur les écrans étroits
+            background-color: transparent;
+            color: white;
+            border: none;
+            font-size: 1.2rem;
+        }
+    }
+    
 
-.nav-links a {
-    color: #fff;
-    text-decoration: none;
-    transition: background-color 0.4s ease;
-    padding: 21px;
-    border-radius: 40px;
-}
+    .nav-links {
+        display: none; // Cacher les liens de navigation sur les écrans étroits
+        position: absolute;
+        background-color: rgba(19, 17, 148, 0.4);
+        top: 100%;
+        right: 0;
+        gap: 16px;
+        z-index: 100;
+  
+      &.active,
+      &:hover {
+        display: flex;
+        flex-direction: column;
+        align-content: flex-end;
+      }
 
-.nav-links a.active,
-.nav-links a:hover {
-    background-color: rgb(21, 1, 134);
-}
+      a {
+      color: #fff;
+      transition: background-color 0.4s ease;
+      padding: 8px;
+      border-radius: 40px;
+        }
+    }
+  
+    .main-header {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 21px; // Supprimer le rembourrage par défaut
+    }
+  
+    .menu-icon {
+      display: block; // Afficher l'icône du menu déroulant
+    }
+  
+    .dropdown-menu {
+      display: none; // Cacher le menu déroulant par défaut
+    }
+  
+    // Afficher le menu déroulant lorsqu'il est déployé
+    .dropdown-menu.open {
+      display: block;
+    }
+  }
+  

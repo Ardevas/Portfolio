@@ -2,12 +2,23 @@
 
 @import "../../../components/card/index.scss";
 
+#projectsSection {
+    display: flex;
+    justify-content: center;
+}
+
 .projects-cards {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
     justify-content: center;
-    gap: 25px
+    gap: 25px;
+    max-width: 1200px; // Limitez la largeur du conteneur parent à 1200px
+    margin: 0 40px auto; // Centrez le conteneur horizontalement
+}
+
+.card {
+    flex-basis: calc(33.33% - 25px); // Pour limiter à 3 cartes par ligne avec un espace de 25px entre elles
+    margin-bottom: 25px; // Ajoutez une marge inférieure pour l'espace entre les lignes
 }
 
 @media screen and (max-width: 768px) {

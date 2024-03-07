@@ -4,6 +4,28 @@
 
 .section-row {
     font-size: 1.5rem;
-    color: #333;
-    margin: 0rem 2rem;
+    margin: 0rem 4rem;
+}
+
+#aboutSection {
+    margin-bottom: -10vh;
+}
+
+.about {
+    position: relative;
+    padding-bottom: 100px; // Ajoutez de l'espace en bas pour éviter que le contenu ne soit masqué par l'image de fond
+    padding-top: 120px; // Ajoutez de l'espace en haut pour laisser de la place à l'image de fond
+}
+
+.about::before {
+    content: "";
+    position: fixed;
+    top: -10%;
+    left: 0;
+    width: 100%;
+    height: 55%; // Hauteur de votre image de fond
+    background-image: url("../../../../public/assets/images/BackgroundTop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -10;
 }

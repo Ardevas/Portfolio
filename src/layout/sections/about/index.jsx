@@ -18,6 +18,11 @@ const About = () => {
           J'ai également acquis des compétences en développement web en suivant
           des tutoriels sur YouTube et en suivant des cours sur la plateforme en
           ligneOpenClassrooms.
+          <br />
+          <br />
+          J'ai également acquis des compétences en développement web en suivant
+          des tutoriels sur YouTube et en suivant des cours sur la plateforme en
+          ligneOpenClassrooms.
         </p>
       </div>
     </div>

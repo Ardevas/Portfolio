@@ -1,17 +1,29 @@
 // Header.jsx
 
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import headNav from "../../components/headNav/headNav";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
   useEffect(() => {
     headNav();
   }, []);
 
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <header className="main-header">
       <nav>
-        <ul className="nav-links">
+        <button className="menu-toggle" onClick={toggleMenu}>
+          <FontAwesomeIcon icon={faBars} className="menu-icon" />
+        </button>
+        <ul className={`nav-links ${isMenuOpen ? "active" : ""}`}>
           <li>
             <a href="#accueil">Accueil</a>
           </li>
