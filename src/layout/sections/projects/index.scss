@@ -12,13 +12,13 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 25px;
-    max-width: 1200px; // Limitez la largeur du conteneur parent à 1200px
-    margin: 0 40px auto; // Centrez le conteneur horizontalement
+    max-width: 1200px;
+    margin: 0 40px auto;
 }
 
 .card {
-    flex-basis: calc(33.33% - 25px); // Pour limiter à 3 cartes par ligne avec un espace de 25px entre elles
-    margin-bottom: 25px; // Ajoutez une marge inférieure pour l'espace entre les lignes
+    flex-basis: calc(33.33% - 25px); // Limit the width of the card of the container minus the gap
+    margin-bottom: 25px;
 }
 
 @media screen and (max-width: 768px) {

@@ -5,7 +5,7 @@ import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 
 const ContactBar = () => {
   return (
-    <div className="contact-bar" id="accueil">
+    <section className="contact-bar" id="accueil">
       <div className="mail">
         <a href="mailto:ardevas.otter@gmail.com" className="contact-link">
           ardevas.otter@gmail.com <FaEnvelope />
@@ -29,7 +29,7 @@ const ContactBar = () => {
           <FaLinkedin />
         </a>
       </div>
-    </div>
+    </section>
   );
 };
 

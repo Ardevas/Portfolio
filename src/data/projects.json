@@ -65,7 +65,11 @@
   },
   {
     "id": 1,
-    "image": "./assets/images/image.jpg",
+    "image": [
+      "./assets/images/Riding_Cities-1.jpg",
+      "./assets/images/Riding_Cities-2.jpg",
+      "./assets/images/Riding_Cities-3.jpg"
+    ],
     "title": "Riding Cities",
     "caption": "Test 1",
     "texte": "Riding Cities est un site web qui permet de découvrir des villes à travers le monde en fonction de leur accessibilité à vélo. Il a été réalisé dans le cadre du projet 7 du parcours développeur web d'Openclassrooms. Il a été réalisé en HTML, CSS, JavaScript, Node.js, Express.js, Sequelize, MySQL, et Leaflet.",

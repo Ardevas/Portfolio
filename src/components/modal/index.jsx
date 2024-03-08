@@ -1,19 +1,24 @@
-// Modal.jsx
-
 import React from "react";
+import { FaTimes } from "react-icons/fa";
+import Carousel from "../carousel";
 
 const Modal = ({ project, onClose }) => {
   return (
     <div className="modal">
+      <div className="modal-close">
+        <FaTimes className="close-icon" onClick={onClose} />
+      </div>
       <div className="modal-title">
         <h2>{project.title}</h2>
-        <button onClick={onClose}>Fermer</button>
       </div>
-      <div className="modal-image">
-        <img src={project.image} alt="Header" />{" "}
-      </div>
+      <Carousel images={project.image} />
       <div className="modal-body">
         <p>{project.texte}</p>
+      </div>
+      <div className="modal-link">
+        <a href={project.link} target="_blank" rel="noreferrer">
+          Voir le projet
+        </a>
       </div>
     </div>
   );

@@ -8,22 +8,23 @@
 }
 
 #aboutSection {
-    margin-bottom: -10vh;
+    margin-bottom: 10vh;
 }
 
 .about {
     position: relative;
-    padding-bottom: 100px; // Ajoutez de l'espace en bas pour éviter que le contenu ne soit masqué par l'image de fond
-    padding-top: 120px; // Ajoutez de l'espace en haut pour laisser de la place à l'image de fond
+    padding-bottom: 100px;
+    padding-top: 120px;
 }
 
+// Background image
 .about::before {
     content: "";
     position: fixed;
     top: -10%;
     left: 0;
     width: 100%;
-    height: 55%; // Hauteur de votre image de fond
+    height: 55%;
     background-image: url("../../../../public/assets/images/BackgroundTop.jpg");
     background-repeat: no-repeat;
     background-size: cover;

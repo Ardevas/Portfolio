@@ -1,3 +1,5 @@
+// HeadNav.jsx
+
 function headNav() {
   const navLinks = document.querySelectorAll(".nav-links a");
   navLinks.forEach((link) => {

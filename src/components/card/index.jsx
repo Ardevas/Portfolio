@@ -17,7 +17,7 @@ const Card = ({ project }) => {
   return (
     <>
       <div className="card" onClick={openModal}>
-        <img src="./assets/images/image.jpg" alt="Miniature" />
+        <img src={project.image[0]} alt="Miniature" />
         <div className="cardText">
           <h2>{project.title}</h2>
           <p>{project.caption}</p>

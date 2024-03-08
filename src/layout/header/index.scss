@@ -1,3 +1,5 @@
+// Header.scss
+
 .main-header {
     position: sticky;
     top: 0;
@@ -7,7 +9,7 @@
   
     nav {
       .menu-toggle {
-        display: none; // Cacher le bouton du menu par défaut
+        display: none; // Hide the menu toggle button by default
       }
     }
   }
@@ -40,7 +42,7 @@
   @media screen and (max-width: 800px) {
     .main-header nav {
         .menu-toggle {
-            display: block; // Afficher le bouton du menu sur les écrans étroits
+            display: block; // Display the menu toggle button on small screens
             background-color: transparent;
             color: white;
             border: none;
@@ -50,7 +52,7 @@
     
 
     .nav-links {
-        display: none; // Cacher les liens de navigation sur les écrans étroits
+        display: none; // Hide the nav links on small screens
         position: absolute;
         background-color: rgba(19, 17, 148, 0.4);
         top: 100%;
@@ -76,18 +78,18 @@
     .main-header {
         display: flex;
         flex-direction: row-reverse;
-        padding: 21px; // Supprimer le rembourrage par défaut
+        padding: 21px;
     }
   
     .menu-icon {
-      display: block; // Afficher l'icône du menu déroulant
+      display: block; // Display the menu icon on small screens
     }
   
     .dropdown-menu {
-      display: none; // Cacher le menu déroulant par défaut
+      display: none; // Hide the dropdown menu by default
     }
   
-    // Afficher le menu déroulant lorsqu'il est déployé
+    // Display the dropdown menu when the dropdown is open
     .dropdown-menu.open {
       display: block;
     }
