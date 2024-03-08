@@ -23,12 +23,12 @@
 
 @media screen and (max-width: 768px) {
     .projects-cards {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 }
 
 @media screen and (min-width: 769px) {
     .projects-cards {
-        flex-direction: row-reverse;
+        flex-direction: row;
     }
 }
