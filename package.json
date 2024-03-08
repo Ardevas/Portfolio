@@ -1,6 +1,7 @@
 {
   "name": "Portfolio",
-  "homepage": "https://ardevas.github.io/",
+  "version": "0.1.0",
+  "homepage": "https://ardevas.github.io/Porfolio",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.5.1",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
@@ -33,5 +34,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
