@@ -2,9 +2,9 @@
   {
     "id": 10,
     "image": [
-      "./assets/images/Argent_Bank-1.webp",
-      "./assets/images/Argent_Bank-2.webp",
-      "./assets/images/Argent_Bank-3.webp"
+      "./portfolio/assets/images/Argent_Bank-1.webp",
+      "./portfolio/assets/images/Argent_Bank-2.webp",
+      "./portfolio/assets/images/Argent_Bank-3.webp"
     ],
     "title": "Argent Bank",
     "caption": "Test 10",
@@ -14,9 +14,9 @@
   {
     "id": 9,
     "image": [
-      "./assets/images/724_events-1.gif",
-      "./assets/images/724_events-2.webp",
-      "./assets/images/724_events-3.webp"
+      "./portfolio/assets/images/724_events-1.gif",
+      "./portfolio/assets/images/724_events-2.webp",
+      "./portfolio/assets/images/724_events-3.webp"
     ],
     "title": "724 Events",
     "caption": "Test 9",
@@ -26,10 +26,10 @@
   {
     "id": 8,
     "image": [
-      "./assets/images/Nina_Carducci-1.gif",
-      "./assets/images/Nina_Carducci-2.webp",
-      "./assets/images/Nina_Carducci-3.webp",
-      "./assets/images/Nina_Carducci-4.webp"
+      "./portfolio/assets/images/Nina_Carducci-1.gif",
+      "./portfolio/assets/images/Nina_Carducci-2.webp",
+      "./portfolio/assets/images/Nina_Carducci-3.webp",
+      "./portfolio/assets/images/Nina_Carducci-4.webp"
     ],
     "title": "Nina Carducci",
     "caption": "Test 8",
@@ -40,9 +40,9 @@
   {
     "id": 7,
     "image": [
-      "./assets/images/Kasa-1.webp",
-      "./assets/images/Kasa-2.webp",
-      "./assets/images/Kasa-3.webp"
+      "./portfolio/assets/images/Kasa-1.webp",
+      "./portfolio/assets/images/Kasa-2.webp",
+      "./portfolio/assets/images/Kasa-3.webp"
     ],
     "title": "Kasa",
     "caption": "Test 7",
@@ -52,10 +52,10 @@
   {
     "id": 6,
     "image": [
-      "./assets/images/Qwenta-1.webp",
-      "./assets/images/Qwenta-2.webp",
-      "./assets/images/Qwenta-3.webp",
-      "./assets/images/Qwenta-4.webp"
+      "./portfolio/assets/images/Qwenta-1.webp",
+      "./portfolio/assets/images/Qwenta-2.webp",
+      "./portfolio/assets/images/Qwenta-3.webp",
+      "./portfolio/assets/images/Qwenta-4.webp"
     ],
     "title": "Menu Maker",
     "caption": "Test 6",
@@ -65,9 +65,9 @@
   {
     "id": 5,
     "image": [
-      "./assets/images/Sophie_Bluel-1.gif",
-      "./assets/images/Sophie_Bluel-2.gif",
-      "./assets/images/Sophie_Bluel-3.webp"
+      "./portfolio/assets/images/Sophie_Bluel-1.gif",
+      "./portfolio/assets/images/Sophie_Bluel-2.gif",
+      "./portfolio/assets/images/Sophie_Bluel-3.webp"
     ],
     "title": "Sophie Bluel",
     "caption": "Test 5",
@@ -77,9 +77,9 @@
   {
     "id": 4,
     "image": [
-      "./assets/images/Print_it-1.gif",
-      "./assets/images/Print_it-2.webp",
-      "./assets/images/Print_it-3.webp"
+      "./portfolio/assets/images/Print_it-1.gif",
+      "./portfolio/assets/images/Print_it-2.webp",
+      "./portfolio/assets/images/Print_it-3.webp"
     ],
     "title": "Print-it",
     "caption": "Test 4",
@@ -89,9 +89,9 @@
   {
     "id": 3,
     "image": [
-      "./assets/images/Ohmyfood-1.gif",
-      "./assets/images/Ohmyfood-2.webp",
-      "./assets/images/Ohmyfood-3.webp"
+      "./portfolio/assets/images/Ohmyfood-1.gif",
+      "./portfolio/assets/images/Ohmyfood-2.webp",
+      "./portfolio/assets/images/Ohmyfood-3.webp"
     ],
     "title": "Oh my food!",
     "caption": "Test 3",
@@ -101,7 +101,10 @@
   },
   {
     "id": 2,
-    "image": ["./assets/images/Booki-1.webp", "./assets/images/Booki-2.webp"],
+    "image": [
+      "./portfolio/assets/images/Booki-1.webp",
+      "./portfolio/assets/images/Booki-2.webp"
+    ],
     "title": "Booki",
     "caption": "Test 2",
     "texte": "Booki est un site web qui permet de gérer une bibliothèque. Il a été réalisé dans le cadre du projet 2 du parcours développeur web d'Openclassrooms. Il a été réalisé en HTML, CSS, JavaScript, et Sass.",
@@ -110,9 +113,9 @@
   {
     "id": 1,
     "image": [
-      "./assets/images/Riding_Cities-1.webp",
-      "./assets/images/Riding_Cities-2.webp",
-      "./assets/images/Riding_Cities-3.webp"
+      "./portfolio/assets/images/Riding_Cities-1.webp",
+      "./portfolio/assets/images/Riding_Cities-2.webp",
+      "./portfolio/assets/images/Riding_Cities-3.webp"
     ],
     "title": "Riding Cities",
     "caption": "Test 1",
