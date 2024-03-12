@@ -19,6 +19,7 @@ const ContactBar = () => {
           rel="noopener noreferrer"
         >
           <FaGithub />
+          Github
         </a>
         <a
           href="https://linkedin.com/in/votreprofil"
@@ -27,6 +28,7 @@ const ContactBar = () => {
           rel="noopener noreferrer"
         >
           <FaLinkedin />
+          Linkedin
         </a>
       </div>
     </section>

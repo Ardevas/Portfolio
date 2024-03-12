@@ -1,74 +1,118 @@
 [
   {
-    "id": 9,
-    "image": "./assets/images/image.jpg",
+    "id": 10,
+    "image": [
+      "./assets/images/Argent_Bank-1.webp",
+      "./assets/images/Argent_Bank-2.webp",
+      "./assets/images/Argent_Bank-3.webp"
+    ],
     "title": "Argent Bank",
-    "caption": "Test 9",
+    "caption": "Test 10",
     "texte": "Argent Bank est un site web qui permet de gérer un compte bancaire. Il a été réalisé dans le cadre du projet 10 du parcours développeur web d'Openclassrooms. Il a été réalisé en HTML, CSS, JavaScript, React.js, et Sass.",
     "link": "https://github.com/Ardevas/ArgentBank-website"
   },
   {
-    "id": 8,
-    "image": "./assets/images/image.jpg",
+    "id": 9,
+    "image": [
+      "./assets/images/724_events-1.gif",
+      "./assets/images/724_events-2.webp",
+      "./assets/images/724_events-3.webp"
+    ],
     "title": "724 Events",
-    "caption": "Test 8",
+    "caption": "Test 9",
     "texte": "724 Events est un site web qui permet de découvrir des événements. Il a été réalisé dans le cadre du projet 9 du parcours développeur web d'Openclassrooms. Il a été réalisé en HTML, CSS, JavaScript, React.js, et Sass.",
     "link": "https://github.com/Ardevas/Debuggez-une-application-React.JS-main"
   },
   {
-    "id": 7,
-    "image": "./assets/images/image.jpg",
+    "id": 8,
+    "image": [
+      "./assets/images/Nina_Carducci-1.gif",
+      "./assets/images/Nina_Carducci-2.webp",
+      "./assets/images/Nina_Carducci-3.webp",
+      "./assets/images/Nina_Carducci-4.webp"
+    ],
     "title": "Nina Carducci",
-    "caption": "Test 7",
+    "caption": "Test 8",
     "texte": "Nina Carducci est un site web qui permet de découvrir le travail d'une illustratrice. Il a été réalisé dans le cadre du projet 6 du parcours développeur web d'Openclassrooms. Il a été réalisé en HTML, CSS, JavaScript, et Sass.",
-    "link": "https://github.com/Ardevas/ninacarducci.github.io-main"
+    "link": "https://github.com/Ardevas/ninacarducci.github.io-main",
+    "live": "https://ardevas.github.io/ninacarducci.github.io-main/"
   },
   {
-    "id": 6,
-    "image": "./assets/images/image.jpg",
+    "id": 7,
+    "image": [
+      "./assets/images/Kasa-1.webp",
+      "./assets/images/Kasa-2.webp",
+      "./assets/images/Kasa-3.webp"
+    ],
     "title": "Kasa",
-    "caption": "Test 6",
+    "caption": "Test 7",
     "texte": "Kasa est un site web qui permet de réserver des logements. Il a été réalisé dans le cadre du projet 8 du parcours développeur web d'Openclassrooms. Il a été réalisé en HTML, CSS, JavaScript, Node.js, Express.js, Sequelize, MySQL, et Leaflet.",
     "link": "https://github.com/Ardevas/Kasa"
   },
   {
-    "id": 5,
-    "image": "./assets/images/image.jpg",
+    "id": 6,
+    "image": [
+      "./assets/images/Qwenta-1.webp",
+      "./assets/images/Qwenta-2.webp",
+      "./assets/images/Qwenta-3.webp",
+      "./assets/images/Qwenta-4.webp"
+    ],
     "title": "Menu Maker",
-    "caption": "Test 5",
+    "caption": "Test 6",
     "texte": "Menu Maker est un site web qui permet de créer des menus. Il a été réalisé dans le cadre du projet 5 du parcours développeur web d'Openclassrooms. Il a été réalisé en HTML, CSS, JavaScript, et Sass.",
     "link": ""
   },
   {
-    "id": 4,
-    "image": "./assets/images/image.jpg",
+    "id": 5,
+    "image": [
+      "./assets/images/Sophie_Bluel-1.gif",
+      "./assets/images/Sophie_Bluel-2.gif",
+      "./assets/images/Sophie_Bluel-3.webp"
+    ],
     "title": "Sophie Bluel",
-    "caption": "Test 4",
+    "caption": "Test 5",
     "texte": "Sophie Bluel est un site web qui permet de découvrir le travail d'une illustratrice. Il a été réalisé dans le cadre du projet 6 du parcours développeur web d'Openclassrooms. Il a été réalisé en HTML, CSS, JavaScript, et Sass.",
     "link": "https://github.com/Ardevas/Portfolio-sophie-bluel"
   },
   {
-    "id": 3,
-    "image": "./assets/images/image.jpg",
+    "id": 4,
+    "image": [
+      "./assets/images/Print_it-1.gif",
+      "./assets/images/Print_it-2.webp",
+      "./assets/images/Print_it-3.webp"
+    ],
     "title": "Print-it",
-    "caption": "Test 3",
+    "caption": "Test 4",
     "texte": "Print-it est un site web qui permet de créer des affiches personnalisées. Il a été réalisé dans le cadre du projet 4 du parcours développeur web d'Openclassrooms. Il a été réalisé en HTML, CSS, JavaScript, et Sass.",
     "link": "https://github.com/Ardevas/Print-it-JS-main"
   },
   {
-    "id": 2,
-    "image": "./assets/images/image.jpg",
+    "id": 3,
+    "image": [
+      "./assets/images/Ohmyfood-1.gif",
+      "./assets/images/Ohmyfood-2.webp",
+      "./assets/images/Ohmyfood-3.webp"
+    ],
     "title": "Oh my food!",
-    "caption": "Test 2",
+    "caption": "Test 3",
     "texte": "Oh my food! est un site web qui permet de réserver une table dans un restaurant. Il a été réalisé dans le cadre du projet 3 du parcours développeur web d'Openclassrooms. Il a été réalisé en HTML, CSS, JavaScript, et Sass.",
-    "link": "https://github.com/Ardevas/ardevas.github.io"
+    "link": "https://github.com/Ardevas/ardevas.github.io",
+    "live": "https://ardevas.github.io/"
+  },
+  {
+    "id": 2,
+    "image": ["./assets/images/Booki-1.webp", "./assets/images/Booki-2.webp"],
+    "title": "Booki",
+    "caption": "Test 2",
+    "texte": "Booki est un site web qui permet de gérer une bibliothèque. Il a été réalisé dans le cadre du projet 2 du parcours développeur web d'Openclassrooms. Il a été réalisé en HTML, CSS, JavaScript, et Sass.",
+    "link": "https://github.com/Ardevas/Booki"
   },
   {
     "id": 1,
     "image": [
-      "./assets/images/Riding_Cities-1.jpg",
-      "./assets/images/Riding_Cities-2.jpg",
-      "./assets/images/Riding_Cities-3.jpg"
+      "./assets/images/Riding_Cities-1.webp",
+      "./assets/images/Riding_Cities-2.webp",
+      "./assets/images/Riding_Cities-3.webp"
     ],
     "title": "Riding Cities",
     "caption": "Test 1",
