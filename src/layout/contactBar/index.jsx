@@ -8,7 +8,7 @@ const ContactBar = () => {
     <section className="contact-bar" id="accueil">
       <div className="mail">
         <a href="mailto:ardevas.otter@gmail.com" className="contact-link">
-          ardevas.otter@gmail.com <FaEnvelope />
+          <span>ardevas.otter@gmail.com</span> <FaEnvelope />
         </a>
       </div>
       <div className="contact-links">
@@ -19,7 +19,7 @@ const ContactBar = () => {
           rel="noopener noreferrer"
         >
           <FaGithub />
-          Github
+          <span>Github</span>
         </a>
         <a
           href="https://linkedin.com/in/votreprofil"
@@ -28,7 +28,7 @@ const ContactBar = () => {
           rel="noopener noreferrer"
         >
           <FaLinkedin />
-          Linkedin
+          <span>Linkedin</span>
         </a>
       </div>
     </section>

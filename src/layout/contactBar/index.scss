@@ -13,7 +13,7 @@
 .contact-link {
     display: flex;
     align-items: center;
-    margin-left: 10px;
+    margin: 0 10px;
     color: #ffffff;
     text-decoration: none;
     font-size: 20px;
@@ -22,4 +22,21 @@
 
 .contact-link:hover {
     color: #007bff;
+}
+
+@media screen and (max-width: 480px) {
+    .contact-bar {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+    .contact-links {
+        margin-top: 10px;
+    }
+    .contact-link {
+        span {
+          display: none;
+          margin: 0 8px;
+        }
+    }
 }
