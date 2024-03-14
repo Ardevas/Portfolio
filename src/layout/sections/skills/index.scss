@@ -5,8 +5,51 @@
 }
 
 .skills {
-    position: relative;
-    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2vh;
+}
+
+.skills-charts {
+    display: flex;
+    flex-direction: row;
+
+    .section-row {
+        font-size: 2.5rem;
+    }
+}
+
+.hard-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.soft-skills {
+    width: 50%;
+    text-align: center;
+}
+
+.skills-chart {
+    height: 50vh;
+    width: 80%;
+}
+
+ul {
+    font-size: 1.5rem;
+    list-style-type: none;
+    padding-left: 0;
+    padding-right: 2rem;
+
+     p {
+            margin: 6px;
+        }
+    .skillLevel {
+        font-style: italic;
+        margin-bottom: 25px;
+        }
 }
 
 // Background image
@@ -21,4 +64,28 @@
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -10;
+}
+
+@media screen and (max-width: 800px) {
+    .skills-charts {
+        flex-direction: column;
+    }
+
+    .skills-chart {
+        height: 35vh;
+        width: 100%;
+    }
+    .hard-skills, .soft-skills {
+        width: 99%;
+    }
+    .soft-skills {
+        margin-top: 30px;
+
+        ul {
+            padding-right: 0;
+            }   
+        li {
+            margin: 0 50px 20px;
+        }
+    }
 }

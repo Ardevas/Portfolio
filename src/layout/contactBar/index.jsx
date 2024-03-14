@@ -22,7 +22,7 @@ const ContactBar = () => {
           <span>Github</span>
         </a>
         <a
-          href="https://linkedin.com/in/votreprofil"
+          href="https://fr.linkedin.com/in/thomas-bardot-a8931787?trk=people-guest_people_search-card"
           className="contact-link"
           target="_blank"
           rel="noopener noreferrer"

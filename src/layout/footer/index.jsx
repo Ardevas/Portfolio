@@ -5,7 +5,7 @@ import React from "react";
 export default function Footer() {
   return (
     <div className="footer">
-      <p>FOOTER TEST</p>
+      <p>© 2024 Thomas BARDOT</p>
     </div>
   );
 }

@@ -22,8 +22,8 @@
     list-style: none;
     margin: 0;
     padding: 11px;
-    font-size: large;
-    gap: 30px;
+    font-size: 1.2rem;
+    gap: 15px;
   
     a {
       color: #fff;
@@ -31,7 +31,7 @@
       transition: background-color 0.4s ease;
       padding: 21px;
       border-radius: 40px;
-      font-size: larger;
+      font-size: 1.2rem;
 
   
       &.active,
@@ -48,7 +48,7 @@
             background-color: transparent;
             color: white;
             border: none;
-            font-size: 1.2rem;
+            font-size: 1.1rem;
         }
     }
     
@@ -59,6 +59,7 @@
         top: 100%;
         right: 0;
         gap: 16px;
+        font-size: 1rem;
         z-index: 100;
   
       &.active,
@@ -79,7 +80,7 @@
     .main-header {
         display: flex;
         flex-direction: row-reverse;
-        padding: 21px;
+        padding: 18px;
     }
   
     .menu-icon {
