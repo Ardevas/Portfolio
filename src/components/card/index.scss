@@ -8,6 +8,7 @@
     border-radius: 10px;
     border: 2px solid rgba(19, 17, 148, 0.6);
     transition: transform 0.3s ease-in-out;
+    color: #333;
 
     &:hover {
         transform: scale(1.05); // Agrandit la carte de 5% lors du survol
@@ -25,14 +26,19 @@
     padding-left: 1rem;
 }
 
+.card h2, .card p {
+    color: #333;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
 .card h2 {
     margin: 5px 0 2px 0;
     font-size: 1.5rem;
 }
 
 .card p {
-    font-size: 1.2rem;
     margin: 0 0 10px 10px;
+    font-size: 1.2rem;
 }
 
 @media screen and (max-width: 800px) {

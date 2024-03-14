@@ -11,6 +11,7 @@ import ScrollHandler from "./components/scrollHandler";
 import ContactBar from "./layout/contactBar";
 import Header from "./layout/header";
 import Footer from "./layout/footer";
+import Background from "./components/background";
 
 // STYLES
 import "./styles/main.scss";
@@ -19,6 +20,7 @@ function App() {
   return (
     <Router>
       <ScrollHandler />
+      <Background />
       <ContactBar />
       <Header />
       <Routes>

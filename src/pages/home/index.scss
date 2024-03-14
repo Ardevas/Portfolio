@@ -1,5 +1,11 @@
 // Home.scss
 
+h1, h2, p {
+    font-family: 'montserrat', sans-serif;
+    color: #fff;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
 body {
     margin: 0;
     min-width: 380px;

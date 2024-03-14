@@ -13,7 +13,7 @@ import SkillsChart from "../../../components/skillChart";
 const Skills = () => {
   const softSkillsList = softSkillsData.map((skill, index) => (
     <li key={index}>
-      <strong>{skill.label}</strong>
+      <h3>{skill.label}</h3>
       <p>{skill.description}</p>
       <p className="skillLevel">Niveau : {skill.level}</p>
     </li>

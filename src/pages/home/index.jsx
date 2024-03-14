@@ -1,6 +1,6 @@
 // Home.jsx
 
-import React, { useState } from "react";
+import React from "react";
 
 import Intro from "../../layout/sections/intro";
 import About from "../../layout/sections/about";
