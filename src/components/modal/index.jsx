@@ -19,6 +19,11 @@ const Modal = ({ project, onClose }) => {
         <a href={project.link} target="_blank" rel="noreferrer">
           Voir le projet
         </a>
+        {project.live && (
+          <a href={project.live} target="_blank" rel="noreferrer">
+            Voir le site
+          </a>
+        )}
       </div>
     </div>
   );

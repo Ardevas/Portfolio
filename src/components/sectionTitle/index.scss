@@ -3,15 +3,21 @@
 .section-title {
     display: flex;
     font-size: 2rem;
-    color: #333;
-    margin: 1vh 20% 1rem;
+    margin: 1vh 25% 1rem;
     align-items: center;
     flex-direction: column;
+    border-bottom: 2px solid #ffffff;
+    margin-bottom: 80px;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+
+    h1 {
+        margin-bottom: 10px;
+    }
 }
 
 @media screen and (max-width: 800px) {
     .section-title {
-        margin: 3vh 5% 1rem;
+        margin: 3vh 5% 3rem;
         font-size: 1.5rem;
     }
 }

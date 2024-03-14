@@ -7,7 +7,7 @@
       "./portfolio/assets/images/Argent_Bank-3.webp"
     ],
     "title": "Argent Bank",
-    "caption": "Test 10",
+    "caption": "Implémenter le front-end d'une application bancaire avec React",
     "texte": "Argent Bank est un site web qui permet de gérer un compte bancaire. Il a été réalisé dans le cadre du projet 10 du parcours développeur web d'Openclassrooms. Il a été réalisé en HTML, CSS, JavaScript, React.js, et Sass.",
     "link": "https://github.com/Ardevas/ArgentBank-website"
   },
@@ -19,7 +19,7 @@
       "./portfolio/assets/images/724_events-3.webp"
     ],
     "title": "724 Events",
-    "caption": "Test 9",
+    "caption": "Débugger le site d'une agence d'événementiel",
     "texte": "724 Events est un site web qui permet de découvrir des événements. Il a été réalisé dans le cadre du projet 9 du parcours développeur web d'Openclassrooms. Il a été réalisé en HTML, CSS, JavaScript, React.js, et Sass.",
     "link": "https://github.com/Ardevas/Debuggez-une-application-React.JS-main"
   },
@@ -32,7 +32,7 @@
       "./portfolio/assets/images/Nina_Carducci-4.webp"
     ],
     "title": "Nina Carducci",
-    "caption": "Test 8",
+    "caption": "Optimiser le référencement d'un site de photographe",
     "texte": "Nina Carducci est un site web qui permet de découvrir le travail d'une illustratrice. Il a été réalisé dans le cadre du projet 6 du parcours développeur web d'Openclassrooms. Il a été réalisé en HTML, CSS, JavaScript, et Sass.",
     "link": "https://github.com/Ardevas/ninacarducci.github.io-main",
     "live": "https://ardevas.github.io/ninacarducci.github.io-main/"
@@ -45,7 +45,7 @@
       "./portfolio/assets/images/Kasa-3.webp"
     ],
     "title": "Kasa",
-    "caption": "Test 7",
+    "caption": "Créer une application web de location immobilière avec React",
     "texte": "Kasa est un site web qui permet de réserver des logements. Il a été réalisé dans le cadre du projet 8 du parcours développeur web d'Openclassrooms. Il a été réalisé en HTML, CSS, JavaScript, Node.js, Express.js, Sequelize, MySQL, et Leaflet.",
     "link": "https://github.com/Ardevas/Kasa"
   },
@@ -58,7 +58,7 @@
       "./portfolio/assets/images/Qwenta-4.webp"
     ],
     "title": "Menu Maker",
-    "caption": "Test 6",
+    "caption": "Planifier le développement du site de votre client",
     "texte": "Menu Maker est un site web qui permet de créer des menus. Il a été réalisé dans le cadre du projet 5 du parcours développeur web d'Openclassrooms. Il a été réalisé en HTML, CSS, JavaScript, et Sass.",
     "link": ""
   },
@@ -70,7 +70,7 @@
       "./portfolio/assets/images/Sophie_Bluel-3.webp"
     ],
     "title": "Sophie Bluel",
-    "caption": "Test 5",
+    "caption": "Créer une page web dynamique avec JavaScript",
     "texte": "Sophie Bluel est un site web qui permet de découvrir le travail d'une illustratrice. Il a été réalisé dans le cadre du projet 6 du parcours développeur web d'Openclassrooms. Il a été réalisé en HTML, CSS, JavaScript, et Sass.",
     "link": "https://github.com/Ardevas/Portfolio-sophie-bluel"
   },
@@ -82,8 +82,8 @@
       "./portfolio/assets/images/Print_it-3.webp"
     ],
     "title": "Print-it",
-    "caption": "Test 4",
-    "texte": "Print-it est un site web qui permet de créer des affiches personnalisées. Il a été réalisé dans le cadre du projet 4 du parcours développeur web d'Openclassrooms. Il a été réalisé en HTML, CSS, JavaScript, et Sass.",
+    "caption": "Premiers pas sur le langage JavaScript",
+    "texte": "Print-it est un site web qui permet de créer des affiches personnalisées. La mission du projet 4 du parcours développeur web d'Openclassrooms était de mettre en place un carrousel selon le souhait du client. Il a été réalisé en HTML, CSS, JavaScript, et Sass.",
     "link": "https://github.com/Ardevas/Print-it-JS-main"
   },
   {
@@ -94,7 +94,7 @@
       "./portfolio/assets/images/Ohmyfood-3.webp"
     ],
     "title": "Oh my food!",
-    "caption": "Test 3",
+    "caption": "Améliorer l'interface d'un site mobile avec des animations CSS",
     "texte": "Oh my food! est un site web qui permet de réserver une table dans un restaurant. Il a été réalisé dans le cadre du projet 3 du parcours développeur web d'Openclassrooms. Il a été réalisé en HTML, CSS, JavaScript, et Sass.",
     "link": "https://github.com/Ardevas/ardevas.github.io",
     "live": "https://ardevas.github.io/"
@@ -106,7 +106,7 @@
       "./portfolio/assets/images/Booki-2.webp"
     ],
     "title": "Booki",
-    "caption": "Test 2",
+    "caption": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
     "texte": "Booki est un site web qui permet de gérer une bibliothèque. Il a été réalisé dans le cadre du projet 2 du parcours développeur web d'Openclassrooms. Il a été réalisé en HTML, CSS, JavaScript, et Sass.",
     "link": "https://github.com/Ardevas/Booki"
   },
@@ -118,8 +118,8 @@
       "./portfolio/assets/images/Riding_Cities-3.webp"
     ],
     "title": "Riding Cities",
-    "caption": "Test 1",
-    "texte": "Riding Cities est un site web qui permet de découvrir des villes à travers le monde en fonction de leur accessibilité à vélo. Il a été réalisé dans le cadre du projet 7 du parcours développeur web d'Openclassrooms. Il a été réalisé en HTML, CSS, JavaScript, Node.js, Express.js, Sequelize, MySQL, et Leaflet.",
+    "caption": "Actualiser la page Internet d'un site web existant",
+    "texte": "Riding Cities est un site web qui permet de découvrir des villes à travers le monde en fonction de leur accessibilité à vélo. Il a été réalisé dans le cadre du projet 2 du parcours développeur web d'Openclassrooms. Il a été réalisé en HTML, CSS, JavaScript, et Sass.",
     "link": "https://github.com/Ardevas/site-Riding-Cities"
   }
 ]

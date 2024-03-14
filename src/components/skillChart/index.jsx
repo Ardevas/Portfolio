@@ -7,6 +7,18 @@ const SkillsChart = ({ chartData }) => {
   const options = {
     responsive: true,
     maintainAspectRatio: false,
+    plugins: {
+      legend: {
+        display: true,
+        labels: {
+          color: "rgb(255, 255, 255)",
+          font: {
+            family: "Montserrat",
+            size: 15,
+          },
+        },
+      },
+    },
   };
 
   return (

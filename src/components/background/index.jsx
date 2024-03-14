@@ -4,7 +4,7 @@ const Background = () => {
   useEffect(() => {
     VANTA.WAVES({
       el: "#background",
-      mouseControls: false,
+      mouseControls: true,
       touchControls: true,
       gyroControls: false,
       minHeight: 1440.0,
