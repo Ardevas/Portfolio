@@ -8,7 +8,7 @@ const Background = () => {
       touchControls: true,
       gyroControls: false,
       minHeight: 1440.0,
-      minWidth: 400.0,
+      minWidth: 380.0,
       scale: 0.6,
       scaleMobile: 1.0,
       color: 0x2e6bac,

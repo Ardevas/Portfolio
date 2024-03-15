@@ -1,15 +1,15 @@
 // Home.scss
 
-h1, h2, p {
+h1, h2, p, a {
     font-family: 'montserrat', sans-serif;
     color: #fff;
     text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 body {
-    margin: 0;
     min-width: 380px;
     margin: 0 auto;
+    background-color: rgb(146, 195, 238);
 }
 
 section {

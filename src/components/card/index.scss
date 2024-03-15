@@ -33,20 +33,8 @@
 
 .card h2 {
     margin: 5px 0 2px 0;
-    font-size: 1.5rem;
 }
 
 .card p {
-    margin: 0 0 10px 10px;
-    font-size: 1.2rem;
-}
-
-@media screen and (max-width: 800px) {
-    .card h2 {
-        font-size: 1.4rem;
-    }
-    
-    .card p {
-        font-size: 1.2rem;
-    }
+    margin: 0 10px 10px 10px;
 }

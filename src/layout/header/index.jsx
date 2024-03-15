@@ -37,7 +37,7 @@ const Header = () => {
             <a href="#skillsSection">Compétences</a>
           </li>
           <li>
-            <a href="./portfolio/assets/documents/CV.pdf" target="_blank">
+            <a href="./assets/documents/CV.pdf" target="_blank">
               Mon CV
             </a>
           </li>
