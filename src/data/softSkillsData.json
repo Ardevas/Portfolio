@@ -1,22 +1,22 @@
 [
   {
     "label": "Communication",
-    "description": "Capacité à transmettre efficacement des informations et à interagir avec les autres.",
+    "description": "Transmettre efficacement des informations et interagir avec les collaborateurs.",
     "level": "Avancé"
   },
   {
     "label": "Travail d'équipe",
-    "description": "Capacité à collaborer efficacement avec les membres de l'équipe pour atteindre un objectif commun.",
-    "level": "Intermédiaire"
+    "description": "Collaborer efficacement avec les membres de l'équipe pour atteindre un objectif commun.",
+    "level": "Avancé"
   },
   {
     "label": "Résolution de problèmes",
-    "description": "Capacité à analyser les problèmes, à trouver des solutions et à les mettre en œuvre de manière efficace.",
+    "description": "Analyser les problèmes, trouver des solutions et les mettre en œuvre de manière efficace.",
     "level": "Avancé"
   },
   {
     "label": "Créativité",
-    "description": "Capacité à penser de manière innovante et à générer de nouvelles idées.",
-    "level": "Avancé"
+    "description": "Penser de manière innovante et générer de nouvelles idées.",
+    "level": "Intermédiaire"
   }
 ]

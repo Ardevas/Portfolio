@@ -23,7 +23,12 @@ const Card = ({ project }) => {
           <p>{project.caption}</p>
         </div>
       </div>
-      {isModalOpen && <Modal project={project} onClose={closeModal} />}
+      {isModalOpen && (
+        <>
+          <div className="modal-background" onClick={closeModal}></div>
+          <Modal project={project} onClose={closeModal} />
+        </>
+      )}
     </>
   );
 };
