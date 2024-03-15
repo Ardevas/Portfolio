@@ -1,4 +1,4 @@
-import { faBlackboard } from "@fortawesome/free-solid-svg-icons";
+//hardSkillsData.jsx
 
 const hardSkillsData = {
   labels: ["HTML", "CSS", "JavaScript", "React"],

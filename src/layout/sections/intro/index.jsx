@@ -10,7 +10,10 @@ const Intro = () => {
       <h2>DEVELOPPEUR WEB FRONTEND</h2>
       <h2>Thomas BARDOT</h2>
       <div className="section-portrait">
-        <img src="./portfolio/assets/images/Portrait.gif" alt="Thomas BARDOT" />
+        <img
+          src="./Portfolio/assets/images/Portrait.gif"
+          alt="Une loutre animée"
+        />
       </div>
     </div>
   );
