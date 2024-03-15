@@ -3,14 +3,3 @@
 #aboutSection {
     background-color: rgba(19, 17, 148, 0.4);
 }
-
-// Background image
-.about::before {
-    content: "";
-    position: fixed;
-    top: -10%;
-    left: 0;
-    width: 100%;
-    height: 55%;
-    z-index: -10;
-}
