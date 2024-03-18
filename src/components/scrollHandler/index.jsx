@@ -26,6 +26,7 @@ function updateActiveNavLink() {
   });
 }
 
+// To navigate to the section when the nav link is clicked
 export default function ScrollHandler() {
   useEffect(() => {
     window.addEventListener("scroll", updateActiveNavLink);
@@ -38,6 +39,7 @@ export default function ScrollHandler() {
   return null; // Return null because this component doesn't render anything
 }
 
+// To scroll smooth to a section
 export const smoothScroll = (e, id) => {
   e.preventDefault();
   const section = document.getElementById(id);

@@ -1,3 +1,5 @@
+// Background.jsx
+
 import { useEffect } from "react";
 
 const Background = () => {

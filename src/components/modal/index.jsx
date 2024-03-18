@@ -14,6 +14,8 @@ const Modal = ({ project, onClose }) => {
       <Carousel images={project.image} />
       <div className="modal-body">
         <p>{project.texte}</p>
+        <p>{project.texte1}</p>
+        <p>{project.texte2}</p>
       </div>
       <div className="modal-link">
         <a href={project.link} target="_blank" rel="noreferrer">
