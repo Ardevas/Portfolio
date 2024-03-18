@@ -12,6 +12,7 @@
 
     &:hover {
         transform: scale(1.05); // Grow the card on hover
+        cursor: pointer;
     }
 }
 
@@ -38,3 +39,4 @@
 .card p {
     margin: 0 10px 10px 10px;
 }
+
