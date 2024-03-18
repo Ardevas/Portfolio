@@ -9,6 +9,7 @@ function updateActiveNavLink() {
     const sectionTop = section.offsetTop; // The distance from the top of the page to the top of the section
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop; // The distance the page has been scrolled from the top
 
+    // If the top of the section is less than or equal to the distance the page has been scrolled from the top
     if (sectionTop <= scrollTop + 1) {
       const sectionId = section.getAttribute("id");
       const navLink = document.querySelector(
@@ -36,3 +37,12 @@ export default function ScrollHandler() {
 
   return null; // Return null because this component doesn't render anything
 }
+
+export const smoothScroll = (e, id) => {
+  e.preventDefault();
+  const section = document.getElementById(id);
+  section.scrollIntoView({
+    behavior: "smooth",
+    block: "start",
+  });
+};

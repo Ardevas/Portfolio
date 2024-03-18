@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import headNav from "../../components/headNav";
+import { smoothScroll } from "../../components/scrollHandler";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
@@ -25,16 +26,33 @@ const Header = () => {
         </button>
         <ul className={`nav-links ${isMenuOpen ? "active" : ""}`}>
           <li>
-            <a href="#accueil">Accueil</a>
+            <a href="#accueil" onClick={(e) => smoothScroll(e, "accueil")}>
+              Accueil
+            </a>
           </li>
           <li>
-            <a href="#aboutSection">Présentation</a>
+            <a
+              href="#aboutSection"
+              onClick={(e) => smoothScroll(e, "aboutSection")}
+            >
+              Présentation
+            </a>
           </li>
           <li>
-            <a href="#projectsSection">Projets</a>
+            <a
+              href="#projectsSection"
+              onClick={(e) => smoothScroll(e, "projectsSection")}
+            >
+              Projets
+            </a>
           </li>
           <li>
-            <a href="#skillsSection">Compétences</a>
+            <a
+              href="#skillsSection"
+              onClick={(e) => smoothScroll(e, "skillsSection")}
+            >
+              Compétences
+            </a>
           </li>
           <li>
             <a href="./assets/documents/CV.pdf" target="_blank">
