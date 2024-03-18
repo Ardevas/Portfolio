@@ -10,7 +10,10 @@ const Intro = () => {
       <h2>DEVELOPPEUR WEB FRONTEND</h2>
       <h2>Thomas BARDOT</h2>
       <div className="section-portrait">
-        <img src="./assets/images/Portrait.gif" alt="Une loutre animée" />
+        <video autoPlay muted loop className="portrait">
+          <source src="./assets/images/Portrait.webm" type="video/webm" />
+          Your browser does not support the video tag.
+        </video>
       </div>
     </div>
   );

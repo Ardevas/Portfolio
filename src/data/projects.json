@@ -1,6 +1,7 @@
 [
   {
     "id": 10,
+    "miniature": "./assets/images/Argent_Bank-1-mini.webm",
     "image": [
       "./assets/images/Argent_Bank-1.webp",
       "./assets/images/Argent_Bank-2.webp",
@@ -13,8 +14,9 @@
   },
   {
     "id": 9,
+    "miniature": "./assets/images/724_Events-1-mini.webm",
     "image": [
-      "./assets/images/724_events-1.gif",
+      "./assets/images/724_events-1.webp",
       "./assets/images/724_events-2.webp",
       "./assets/images/724_events-3.webp"
     ],
@@ -25,8 +27,9 @@
   },
   {
     "id": 8,
+    "miniature": "./assets/images/Nina_Carducci-1-mini.webm",
     "image": [
-      "./assets/images/Nina_Carducci-1.gif",
+      "./assets/images/Nina_Carducci-1.webp",
       "./assets/images/Nina_Carducci-2.webp",
       "./assets/images/Nina_Carducci-3.webp",
       "./assets/images/Nina_Carducci-4.webp"
@@ -39,6 +42,7 @@
   },
   {
     "id": 7,
+    "miniature": "./assets/images/Kasa-1-mini.webm",
     "image": [
       "./assets/images/Kasa-1.webp",
       "./assets/images/Kasa-2.webp",
@@ -51,6 +55,7 @@
   },
   {
     "id": 6,
+    "miniature": "./assets/images/Qwenta-1-mini.webm",
     "image": [
       "./assets/images/Qwenta-1.webp",
       "./assets/images/Qwenta-2.webp",
@@ -64,9 +69,10 @@
   },
   {
     "id": 5,
+    "miniature": "./assets/images/Sophie_Bluel-1-mini.webm",
     "image": [
-      "./assets/images/Sophie_Bluel-1.gif",
-      "./assets/images/Sophie_Bluel-2.gif",
+      "./assets/images/Sophie_Bluel-1.webp",
+      "./assets/images/Sophie_Bluel-2.webp",
       "./assets/images/Sophie_Bluel-3.webp"
     ],
     "title": "Sophie Bluel",
@@ -76,8 +82,9 @@
   },
   {
     "id": 4,
+    "miniature": "./assets/images/Print_it-1-mini.webm",
     "image": [
-      "./assets/images/Print_it-1.gif",
+      "./assets/images/Print_it-1.webp",
       "./assets/images/Print_it-2.webp",
       "./assets/images/Print_it-3.webp"
     ],
@@ -88,8 +95,9 @@
   },
   {
     "id": 3,
+    "miniature": "./assets/images/Ohmyfood-1-mini.webm",
     "image": [
-      "./assets/images/Ohmyfood-1.gif",
+      "./assets/images/Ohmyfood-1.webp",
       "./assets/images/Ohmyfood-2.webp",
       "./assets/images/Ohmyfood-3.webp"
     ],
@@ -101,6 +109,7 @@
   },
   {
     "id": 2,
+    "miniature": "./assets/images/Booki-1-mini.webm",
     "image": ["./assets/images/Booki-1.webp", "./assets/images/Booki-2.webp"],
     "title": "Booki",
     "caption": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
@@ -109,6 +118,7 @@
   },
   {
     "id": 1,
+    "miniature": "./assets/images/Riding_Cities-1-mini.webm",
     "image": [
       "./assets/images/Riding_Cities-1.webp",
       "./assets/images/Riding_Cities-2.webp",

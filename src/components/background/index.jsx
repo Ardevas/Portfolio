@@ -7,6 +7,7 @@ const Background = () => {
       mouseControls: true,
       touchControls: true,
       gyroControls: false,
+      forceAnimate: true,
       minHeight: 1440.0,
       minWidth: 380.0,
       scale: 0.6,

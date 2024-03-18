@@ -17,7 +17,10 @@ const Card = ({ project }) => {
   return (
     <>
       <div className="card" onClick={openModal}>
-        <img src={project.image[0]} alt="Miniature" loading="lazy" />
+        <video autoPlay muted loop className="miniature">
+          <source src={project.miniature} alt="Miniature" type="video/webm" />
+          Your browser does not support the video tag.
+        </video>
         <div className="cardText">
           <h2>{project.title}</h2>
           <p>{project.caption}</p>
